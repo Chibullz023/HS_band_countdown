@@ -1,0 +1,21 @@
+.indent {
+  margin-right: 7%;
+  margin-left: 10%;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 3px groove #f00;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #060;
+}
+li {
+  list-style-image: url(notes.png);
+}
+body {
+  background-image: url("../img/bandbkgrnd.jpg");
+}

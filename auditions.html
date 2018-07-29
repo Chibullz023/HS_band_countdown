@@ -1,0 +1,73 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Auditions</title>
+    <link rel="stylesheet" href="css/auditions.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <p>
+        <img src="img/banner.jpg" alt="banner" width="750" height="176" class="indent" />
+    </p>
+    <div class="indent">
+        <p>
+            <span class="title" id="title">The All-State Bandmasters (ASB)</span>
+            <br />
+        </p>
+        <p>The ASB will be holding auditions for the All-State summer band competition this March. Music for various instruments
+            has already been determined. To see music and rules for your instrument, goto www.all-stateband.com\music. Look
+            for your particular instrument. The sheet music can be purchased through All-State Bandmasters or you through
+            one of the links proveded on the Web site.</p>
+        <p class="title">Miscellaneious Information</p>
+        <ul>
+            <li>Auditions begin promptly at 8:30 a.m.</li>
+            <li>Students will audition from behind a screen</li>
+            <li>Students must be registered before the auditions begin, there will be no walk-ins allowed.</li>
+            <li>Students must demonstrate knowledge of scales and arpgeggios for their instrument without sheet music.</li>
+            <li>Students will be graded on a point system in four categories: Scales, Prepared Music, Tone, Site Reading.</li>
+            <li>Students must past with a minimum score in all four categories to be asked back for a follow-up audition.
+                <br />
+                <br />
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td colspan="2">
+                <form id="announceMenu" action="goToPage(this.form)">
+                    <p style="font-weight:bolder">Select an item from the list to see other current announcements:
+                        <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
+                            <option>Select an information item</option>
+                            <option value="minutes.html">December Meeting Minutes</option>
+                            <option value="dates.html">Dates to Remember</option>
+                            <option value="index.html">Home</option>
+                        </select>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <p>&nbsp;</p>
+    <div></div>
+    <script>
+        document.write("This document was last modified: " + (date.getMonth() + 1) + "/"
+            + date.getDate() + "/" + date.getFullYear());
+    </script>
+    <footer> &copy; Miller High School</footer>
+    <div>
+        <script>
+            document.write("The URL of this document is: " + document.URL);
+        </script>
+    </div>
+</body>
+
+</html>

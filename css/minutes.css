@@ -1,0 +1,27 @@
+.indent {
+  margin-left: 10%;
+  border-top-style: double;
+  border-right-style: double;
+  border-bottom-style: double;
+  border-left-style: double;
+  border-top-color: #00f;
+  border-right-color: #00f;
+  border-bottom-color: #00f;
+  border-left-color: #00f;
+  margin-right: 8%;
+  padding-left: 5px;
+}
+
+#head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #00c;
+}
+.align_center {
+  text-align: center;
+}
+body {
+  background-image: url("../img/bandbkgrnd.jpg");
+}

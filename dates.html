@@ -1,0 +1,87 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Dates</title>
+    <link rel="stylesheet" href="css/dates.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <p>
+        <img src="img/banner.jpg" alt="banner" width="750" height="176" class="indent" />
+    </p>
+    <div class="align_center">
+        <p class="title">Important Upcoming Dates</p>
+    </div>
+    <table width="60%" border="0" cellspacing="3" cellpadding="2">
+        <tr>
+            <td>Date</td>
+            <td>Activity</td>
+        </tr>
+        <tr>
+            <td>Feb 10th</td>
+            <td>Valentine's Day Weekend Game and Concert</td>
+        </tr>
+        <tr>
+            <td>Mar 1</td>
+            <td>Band Parents Meeting Thursday @ 7 p.m. in auditorium</td>
+        </tr>
+        <tr>
+            <td>Mar 17</td>
+            <td>Saturday, St. Patrick's Day Parade, starting time 10 a.m.</td>
+        </tr>
+        <tr>
+            <td>Mar 28</td>
+            <td>Saturday, All-State summer band auditions: 8:30 a.m. until finished.</td>
+        </tr>
+        <tr>
+            <td>Apr 8</td>
+            <td>Easter Parade, starting time at 2 p.m. </td>
+        </tr>
+        <tr>
+            <td>Apr 30</td>
+            <td>Band Parents Meeting Monday @ 7 p.m. in auditorium</td>
+        </tr>
+        <tr>
+            <td>May 28</td>
+            <td>Memorial Day Parade, starting time 10 a.m.</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td colspan="2">
+                <form id="announceMenu" action="goToPage(this.form)">
+                    <p style="font-weight:bolder">Select an item from the list to see other current announcements:
+                        <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
+                            <option>Select an information item</option>
+                            <option value="minutes.html">December Meeting Minutes</option>
+                            <option value="auditions.html">Auditions</option>
+                            <option value="index.html">Home</option>
+                        </select>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <p>&nbsp;</p>
+
+    <script>
+        document.write("This document was last modified: " + (date.getMonth() + 1) + "/"
+            + date.getDate() + "/" + date.getFullYear());
+    </script>
+    <footer> &copy; Miller High School</footer>
+    <div>
+        <script>
+            document.write("The URL of this document is: " + document.URL);
+        </script>
+    </div>
+</body>
+
+</html>

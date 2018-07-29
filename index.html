@@ -1,0 +1,108 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>High School Band Countdown</title>
+    <link rel="stylesheet" href="css/scrollDynamic.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <p>
+            <img src="img/banner.jpg" alt="oakwood banner" width="750" height="176" />
+        </p>
+        <p style="font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold;">Miller High School Band</p>
+        <img src="img/hrimg-red.gif" width="750" height="5" alt="hr line" />
+        <h3>Today is
+            <script>
+                document.write(dayNames[now.getDay()] + " " + TodayMonth + " " + TodayDay + ", " + TodayYear);
+            </script>.
+
+            <script>
+                document.write(" There is only " + daysLeft + " days left until The Valentines Day Dance.");
+            </script>
+        </h3>
+
+        <img src="img/hrimg-red.gif" width="750" height="5" alt="hr line" /> </div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p style="font-weight:bold; font-family:Arial, sans-serif; font-size:14px">Help!!!</p>
+                <p>The band is looking for volunteers to help with the Valentine's Day Dance and with the concension stand for
+                    the remaining basketball games this February. Please contact the Principal's office at 555-3210 and leave
+                    your contact information with Mrs. Larson, the secretary. </p>
+                <p>Ms. Klenda Jackson misplaced her tenor sax at the New Year's Eve party. If anyone found it please return
+                    it to the Music Director's office.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="font-weight:bold; font-family:Arial, sans-serif; font-size:14px">New Year's Day Parade</p>
+                <p>If you have any photos of the parade, please share them with Mr. Harlan Terson, Music Director, for the school
+                    Web site. If you have prints, we can scan them and return them to you. If you have digitial photos, please
+                    email them to hterson@highschool.k12.us.</p>
+                <p style="font-family: 'Times New Roman', Times, serif; font-size:12px">&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="font-weight:bold; font-family:Arial, sans-serif; font-size:14px">Try Outs</p>
+                <p style="font-weight:bold; font-family:Arial, sans-serif; font-size:14px">The marching band is adding a group of Color Guards to their routine. Try outs for the Color Guard will be
+                    Sunday, March 31st, 2019.</p>
+                <p style="font-family: 'Times New Roman', Times, serif; font-size:12px">&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="right-align">
+                <p>
+                    <img src="img/band2.jpg" alt="school" width="192" height="128" />
+                </p>
+            </td>
+            <td class="left-align">
+                <img src="img/band3.jpg" alt="school" width="192" height="128" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="font-weight:bold; font-family: 'Times New Roman', Times, serif; font-size:14px">&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form id="announceMenu" action="goToPage(this.form)">
+                    <p style="font-weight:bolder">Select an item from the list to see other current announcements:
+                        <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
+                            <option>Select an information item</option>
+                            <option value="minutes.html">December Meeting Minutes</option>
+                            <option value="dates.html">Dates to Remember</option>
+                            <option value="auditions.html">Auditions</option>
+                        </select>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <script>
+        document.write("This document was last modified: " + (date.getMonth() + 1) + "/"
+            + date.getDate() + "/" + date.getFullYear());
+    </script>
+    <footer> &copy; Miller High School</footer>
+    <div>
+        <script>
+            document.write("The URL of this document is: " + document.URL);
+        </script>
+    </div>
+    </b>
+</body>
+
+</html>

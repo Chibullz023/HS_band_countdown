@@ -1,0 +1,33 @@
+hr {
+  color: #006633;
+  width: 600px;
+  height: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cell-width {
+  width: 50%;
+}
+
+.left-align {
+  width: 50%;
+  left: 0;
+}
+
+.right-align {
+  width: 50%;
+  right: 0;
+  text-align: right;
+}
+
+body {
+  background-image: url("../img/bandbkgrnd.jpg");
+}
