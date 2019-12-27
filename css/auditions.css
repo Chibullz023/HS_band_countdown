@@ -19,6 +19,10 @@ li {
   list-style-image: url(notes.png);
 }
 
+.align_center {
+  text-align: center;
+}
+
 body {
   background-image: url("../img/bandbkgrnd.jpg");
 }
