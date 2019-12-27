@@ -1,15 +1,9 @@
 .indent {
+  margin-right: 7%;
   margin-left: 10%;
-  border-top-style: double;
-  border-right-style: double;
-  border-bottom-style: double;
-  border-left-style: double;
-  border-top-color: #00f;
-  border-right-color: #00f;
-  border-bottom-color: #00f;
-  border-left-color: #00f;
-  margin-right: 8%;
+  padding-right: 5px;
   padding-left: 5px;
+  border: 3px groove #f00;
 }
 
 #head {
