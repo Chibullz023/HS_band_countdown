@@ -46,7 +46,7 @@ if (TodayMon == 0) {
 // Calculate the number of days left until the date specified
 today = new Date();
 
-BigDay = new Date("February 14, 2019");
+BigDay = new Date("February 14, 2020");
 msPerDay = 24 * 60 * 60 * 1000;
 timeLeft = BigDay.getTime() - today.getTime();
 e_daysLeft = timeLeft / msPerDay;
