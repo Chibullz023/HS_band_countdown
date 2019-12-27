@@ -5,6 +5,7 @@
   padding-left: 5px;
   border: 3px groove #f00;
 }
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
@@ -13,9 +14,11 @@
   font-variant: small-caps;
   color: #060;
 }
+
 li {
   list-style-image: url(notes.png);
 }
+
 body {
   background-image: url("../img/bandbkgrnd.jpg");
 }
