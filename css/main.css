@@ -4,6 +4,10 @@ hr {
   height: 5px;
 }
 
+.main_header {
+	margin: 15px 20px;
+}
+
 .center {
   text-align: center;
 }
@@ -13,6 +17,10 @@ table {
   margin-right: 15%;
 }
 
+.main_table {
+	margin: 15px 40px;
+}
+
 .cell-width {
   width: 50%;
 }
@@ -20,6 +28,7 @@ table {
 .left-align {
   width: 50%;
   left: 0;
+  padding-right: 25px;
 }
 
 .right-align {
@@ -30,4 +39,5 @@ table {
 
 body {
   background-image: url("../img/bandbkgrnd.jpg");
+  margin: 10px 20px;
 }
