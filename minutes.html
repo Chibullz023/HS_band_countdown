@@ -12,13 +12,11 @@
 </head>
 
 <body>
-    <p>
-        <img src="img/banner.jpg" alt="banner" width="750" height="176" class="indent" />
-    </p>
+    <div class="align_center">
+        <img src="img/banner.jpg" width="80%" height=auto alt="banner" />
+    </div>
     <div class="indent">
-       <div class="align_center">
-        <p class="title">Minutes of the January 6th Band Parents Meeting</p>
-       </div>
+        <p id="head">Minutes of the January 6th Band Parents Meeting</p>
         <p>Principal Kathryn Palmer called the meeting to order at 7:05 pm, when a quorum was present. </p>
         <p>A motion was made to approve the minutes of the October 30th meeting. Following no discussion the minutes were approved.
         </p>
@@ -48,10 +46,9 @@
                     <p style="font-weight:bolder">Select an item from the list to see other current announcements:
                         <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
                             <option>Select an information item</option>
-                            <option value="index.html">Home</option>
                             <option value="dates.html">Dates to Remember</option>
                             <option value="auditions.html">Auditions</option>
-                            
+                            <option value="index.html">Home</option>
                         </select>
                     </p>
                 </form>
@@ -61,7 +58,6 @@
 
     <p>&nbsp;</p>
 
-   <div style="height:300px"></div>
     <script>
         document.write("This document was last modified: " + (date.getMonth() + 1) + "/"
             + date.getDate() + "/" + date.getFullYear());
